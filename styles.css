@@ -1,1 +1,6 @@
-
+@media {
+}
+		
+#header {
+	display: flex;
+}
