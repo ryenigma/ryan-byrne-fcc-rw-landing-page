@@ -1,6 +1,55 @@
-@media {
+html, body {
+	height: 100%;
+	width: 100%;
 }
-		
+
 #header {
-	display: flex;
+	background-color: #23415C;
+	padding: 1% 0;
+	font-size: 1.2em;
+}
+
+#header-img {
+	width: 1.75rem;
+}
+
+#header .navbar-nav li a {
+	color: #d5d5d5;
+}
+
+#header .navbar-nav li a:hover, #header .navbar-nav li a.active{
+	color: #fff;
+}
+
+#home {
+	background: url(https://live.staticflickr.com/3086/2622999261_39dd8463a2_b.jpg) no-repeat center center fixed;
+	display: table;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+	color: #fff;
+}
+
+.landing-text {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.landing-text h1 {
+	font-size: 5em;
+	font-weight: bold;
+}
+
+.padding {
+	padding: 80px 0;
+}
+
+#video {
+	width: 100%;
+}
+
+.padding img {
+	width: 100%;
 }
