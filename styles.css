@@ -53,3 +53,54 @@ html, body {
 .padding img {
 	width: 100%;
 }
+
+#fixed {
+	background: url(https://live.staticflickr.com/3765/10508221763_ba951c6f57_b.jpg) no-repeat center center fixed;
+	display: table;
+	height: 40%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+
+#pricing h4 {
+	font-weight: bold;
+}
+
+#pricing h5 {
+	font-style: italic;
+}
+
+#pricing li {
+	padding: 0.5em;
+}
+
+#pricing button {
+	margin: 0em 5em 1em 5em;
+	color: darkslategrey;
+}
+
+#footer {
+	width: 100%;
+	background-color: #23415C;
+	padding: 3%;
+	color: #fff;
+}
+
+#footer .bi {
+	padding: 15px;
+	font-size: 25px;
+	color: #d5d5d5;
+}
+
+#footer .bi:hover {
+	color: #fff;
+}
+
+#footer h3 {
+	font-weight: bold;
+}
+
+#footer h4 {
+	font-size: 1em;
+}
